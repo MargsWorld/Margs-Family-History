@@ -1,0 +1,9 @@
+// Created by iWeb 3.0.4 local-build-20130316
+
+setTransparentGifURL('Media/transparent.gif');function applyEffects()
+{var registry=IWCreateEffectRegistry();registry.registerEffects({shadow_0:new IWShadow({blurRadius:10,offset:new IWPoint(4.2426,4.2426),color:'#000000',opacity:0.750000}),stroke_1:new IWStrokeParts([{rect:new IWRect(-2,2,4,220),url:'Bensons_files/stroke_7.png'},{rect:new IWRect(-2,-2,4,4),url:'Bensons_files/stroke_8.png'},{rect:new IWRect(2,-2,296,4),url:'Bensons_files/stroke_9.png'},{rect:new IWRect(298,-2,5,4),url:'Bensons_files/stroke_10.png'},{rect:new IWRect(298,2,5,220),url:'Bensons_files/stroke_11.png'},{rect:new IWRect(298,222,5,5),url:'Bensons_files/stroke_12.png'},{rect:new IWRect(2,222,296,5),url:'Bensons_files/stroke_13.png'},{rect:new IWRect(-2,222,4,5),url:'Bensons_files/stroke_14.png'}],new IWSize(300,224)),stroke_0:new IWStrokeParts([{rect:new IWRect(-5,4,6,113),url:'Bensons_files/stroke.png'},{rect:new IWRect(-21,-26,0,0),url:null},{rect:new IWRect(1,-5,596,9),url:'Bensons_files/stroke_1.png'},{rect:new IWRect(597,-4,7,8),url:'Bensons_files/stroke_2.png'},{rect:new IWRect(597,4,8,113),url:'Bensons_files/stroke_3.png'},{rect:new IWRect(597,117,8,7),url:'Bensons_files/stroke_4.png'},{rect:new IWRect(1,117,596,7),url:'Bensons_files/stroke_5.png'},{rect:new IWRect(-4,117,5,6),url:'Bensons_files/stroke_6.png'}],new IWSize(601,120))});registry.applyEffects();}
+function hostedOnDM()
+{return false;}
+function onPageLoad()
+{loadMozillaCSS('Bensons_files/BensonsMoz.css')
+adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');adjustLineHeightIfTooBig('id2');adjustFontSizeIfTooBig('id2');adjustLineHeightIfTooBig('id3');adjustFontSizeIfTooBig('id3');adjustLineHeightIfTooBig('id4');adjustFontSizeIfTooBig('id4');adjustLineHeightIfTooBig('id5');adjustFontSizeIfTooBig('id5');fixAllIEPNGs('Media/transparent.gif');applyEffects()}
